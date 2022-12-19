@@ -5,3 +5,7 @@
 
 ## Infrastructure is boring
 - OAMと近い考え
+
+## サービス間通信
+- セルフホストの場合はmDNSが使える
+- クラスタ横断のissue: https://github.com/dapr/dapr/issues/5389
