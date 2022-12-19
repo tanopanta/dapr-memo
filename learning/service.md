@@ -8,4 +8,8 @@
 
 ## サービス間通信
 - セルフホストの場合はmDNSが使える
+  - > These instance can be on the same machine or on different machines. .
+  - https://docs.dapr.io/developing-applications/building-blocks/service-invocation/service-invocation-overview/#round-robin-load-balancing-with-mdns
+  - Edgeやレガシーシステムでも使えるように対応している
+    - ☆ 昔IoT的なことをやっていたときにもmDNSはよく出てきた気がするので相性良いのかな
 - クラスタ横断のissue: https://github.com/dapr/dapr/issues/5389
