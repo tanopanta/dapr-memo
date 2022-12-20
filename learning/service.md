@@ -18,3 +18,5 @@
 - invokeだとレスポンス遅延の影響を受ける
 - メッセージ基盤があればpublishするだけなのでフロントエンドに早めにレスポンスを返せる
 - キューの重複排除や優先度などの恩恵も受けられる
+- cloudevents形式のメタデータが付与される
+  - https://github.com/dapr/go-sdk/blob/b465b1fa07211ee8a43bdd66906423d2e9e14ebd/dapr/proto/runtime/v1/appcallback.pb.go#L141
