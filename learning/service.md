@@ -27,3 +27,8 @@
 - middleware
   - https://github.com/dapr/components-contrib/tree/master/middleware/http
   - opaがいる
+
+## tracing
+- daprのサイドカーにより複雑性は増すが、リクエストをすべてキャッチ可能なのでtraceできるようになる
+- アプリケーションのコードにtrace関連の処理を書かなくて良くなる
+- X-Collection-ID を使う
