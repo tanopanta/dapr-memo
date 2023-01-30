@@ -1,1 +1,2 @@
 - https://github.com/RichardKnop/machinery もstateあるな
+- eventually consistentがデフォルトになっているのは、分散システムではそちらのほうが自然と判断したから
