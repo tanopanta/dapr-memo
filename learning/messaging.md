@@ -1,0 +1,2 @@
+- binding or pubsub
+  - contrib#1305 のようにコードの共通化すべきという意見も
